@@ -6,3 +6,40 @@
     font-family: sans-serif;
 }
 
+body {
+    background-color: cadetblue;
+}
+
+.container {
+    max-width: 1200px;
+    margin:  0 auto;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-screen {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main-screen__result,.main-screen__number {
+    font-size: 6rem;
+    background: #FF0000;
+    background: -webkit-linear-gradient(to left, #FF0000 0%, #000000 100%);
+    background: -moz-linear-gradient(to left, #FF0000 0%, #000000 100%);
+    background: linear-gradient(to left, #FF0000 0%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.input > input{
+    width: 200px;
+    height: 30px;
+}
+
+.btn__send {
+    margin: 15px 0 0 0 ;
+    padding: 10px 20px;
+}
