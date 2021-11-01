@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: cadetblue;
+    background-color: #004643;
 }
 
 .container {
@@ -27,12 +27,7 @@ body {
 }
 .main-screen__result,.main-screen__number {
     font-size: 6rem;
-    background: #FF0000;
-    background: -webkit-linear-gradient(to left, #FF0000 0%, #000000 100%);
-    background: -moz-linear-gradient(to left, #FF0000 0%, #000000 100%);
-    background: linear-gradient(to left, #FF0000 0%, #000000 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #fff;
 }
 .input > input{
     width: 200px;
